@@ -179,7 +179,6 @@ img.sheet-profile {
 
 .loot-sheet-npc.sheet.actor .inventory-filters .currency label {
 	white-space: nowrap;
-	padding-bottom: 0;
 }
 
 .loot-sheet-npc.sheet.actor .inventory-filters .currency input {
@@ -194,7 +193,7 @@ img.sheet-profile {
 .loot-sheet-npc.sheet.actor label.denomination {
 	display: inline-block;
 	padding-left: 24px;
-	padding-bottom: 10px;
+	padding-bottom: 6px;
 	vertical-align: middle;
 }
 
@@ -234,7 +233,7 @@ section.sheet-sidebar.sidebar {
 
 
 .loot-sheet-npc.sheet.sheet.actor .inventory-list .item-controls-empty {
-    flex: 0 0 110px;
+    flex: 0 0 90px;
 }
 
 .loot-sheet-npc.sheet.actor .inventory-list .item .item-quantity,
@@ -256,7 +255,7 @@ section.sheet-sidebar.sidebar {
 }
 
 .loot-sheet-npc.sheet.actor .inventory-list .item .item-controls {
-	flex: 0 0 45px !important;
+	flex: 0 0 90px !important;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
